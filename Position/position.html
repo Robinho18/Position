@@ -1,0 +1,138 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position display</title>
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+
+    <style>
+        *{
+            margin: 0;
+        }
+        body{
+            background-color:lightseagreen;
+            font-family: 'Poppins';
+            height: 100vh;
+        }
+        .bloco{
+            background: rgb(98, 238, 208);
+            width: 30%;
+            height: 60%;
+            border-radius: 10px;
+            position: sticky;
+            margin: -270px 0 0 680px;
+            padding-top: 1px;
+            text-align: center;
+        }
+        .login{
+            color: white;
+            text-align: center;
+            position: sticky;
+            margin-top: 37px;
+        }
+        button:hover {
+            background-color: dodgerblue;
+        }
+        button{
+            background-color: royalblue;
+            border-radius: 10px;
+            width: 35%;
+            padding: 10px;
+             border: none;
+             font-size: 17px;
+        }
+        .link{
+            color: black;
+        }
+        input {
+            background: transparent;
+            padding: 10px;
+            border: 1px solid white;
+            color: black;
+            font-size: 15px;
+            border-radius: 30px;
+            width: 70%;
+            background-color: white;
+            /* display: none; */
+        }
+        .imagem{
+            margin-top: 200px;
+            margin-left: 160px;
+            position: sticky;
+        }
+        .rodapé{
+            width: 100%;
+            background: darkslategrey;
+            margin-top: 30%;
+            height: 20%; 
+            font-size: 13px;
+        }
+        .redes{
+            margin-left: 630px;
+            margin-top: 10px;
+            align-items: center;
+            justify-items: center;
+        }
+        .titulo{
+            margin-top: 10px;
+        }
+        .mensagem{
+           text-align: center;
+        }
+        .mensagem2{
+           text-align: center;
+           display: none;
+        }
+        .cabeçalho{
+            width: 100%;
+            background: darkslategrey;
+            height: 15%;
+            position: fixed;
+            margin-top: -200px ;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="cabeçalho">
+
+    </div>
+    <div class="imagem">
+    <img src="Login-removebg-preview.png" width="340px">
+    </div>
+    <div class="bloco">
+        <h1 class="titulo"><b>Login</b></h1>
+    <div class="login">
+
+        <form action="">
+            <input id="email" type="email" placeholder="Email">
+            <br><br>
+
+            <input id="senha" type="password" placeholder="Senha">
+            <br><br>
+            <button class="fonte1">Entrar</button>
+            <br><br>
+        </form>
+
+        <a class="link" href="#Cadastre-se">Cadastre-se</a>
+
+    </div>
+    </div>
+    <div class="rodapé">
+        <div class="redes">
+        <a href="https://www.instagram.com/_robinho.png/?next=%2F"><img src="inta-removebg-preview.png" width="49px">
+            </a>
+        <a href="https://www.linkedin.com/in/robson-tavares-15ab59236/"> <img src="https://cdn-icons-png.flaticon.com/512/61/61109.png" width="30px">
+            </a>
+        </div>
+        <p class="mensagem"><b>Info . Suporte . Marketing<br> Termos de Uso . Politica de Privacidade</b></p> 
+        <br> <br>
+        <p class="mensagem2"><b>C 2023 Site de Exemplo</b></p>
+        
+    </div>
+
+</body>
+</html>
